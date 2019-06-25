@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+    <UserSecretsId>aspnet-ThienCoreApp-DBE1E8E6-26B2-491A-9F44-1363285EAC8B</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.App" />
+    <PackageReference Include="Microsoft.AspNetCore.Razor.Design" Version="2.1.2" PrivateAssets="All" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ThienCoreApp.Application\ThienCoreApp.Application.csproj" />
+    <ProjectReference Include="..\ThienCoreApp.Data.EF\ThienCoreApp.Data.EF.csproj" />
+    <ProjectReference Include="..\ThienCoreApp.Data\ThienCoreApp.Data.csproj" />
+    <ProjectReference Include="..\ThienCoreApp.Infrastructure\ThienCoreApp.Infrastructure.csproj" />
+    <ProjectReference Include="..\ThienCoreApp.Utilities\ThienCoreApp.Utilities.csproj" />
+  </ItemGroup>
+
+</Project>

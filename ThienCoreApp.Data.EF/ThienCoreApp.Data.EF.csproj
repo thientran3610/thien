@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Configurations\" />
+    <Folder Include="Extensions\" />
+    <Folder Include="Repositories\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ThienCoreApp.Data\ThienCoreApp.Data.csproj" />
+    <ProjectReference Include="..\ThienCoreApp.Infrastructure\ThienCoreApp.Infrastructure.csproj" />
+    <ProjectReference Include="..\ThienCoreApp.Utilities\ThienCoreApp.Utilities.csproj" />
+  </ItemGroup>
+
+</Project>
